@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Latest Job Alerts</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>
+let timeLeft = 60;
+setInterval(() => {
+    const el = document.getElementById('countdown');
+    if (el) el.innerText = "Next refresh in " + timeLeft + " seconds";
+    timeLeft--;
+    if (timeLeft <= 0) location.reload();
+}, 1000);
+</script>
+</head>
+<body>
+<header>
+    <h1>💼 Job Alert Dashboard</h1>
+    <p id="countdown">Next refresh in 60 seconds</p>
+</header>
+
+<main>
+    <div id="job-container"></div>
+</main>
+
+<footer>
+    <p>Powered by Job Scraper(Mohammed Ahad Ullah) | Updated every minute</p>
+</footer>
+</body>
+</html>

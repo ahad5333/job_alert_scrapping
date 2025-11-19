@@ -1,0 +1,96 @@
+/* General */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+    color: #1976d2;
+}
+
+header p {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #0d47a1;
+}
+
+/* Job Container */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h3 {
+    margin-top: 30px;
+    color: #1976d2;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.job-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.job-list li {
+    background: #fff;
+    margin: 12px 0;
+    padding: 18px 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.job-list li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.job-list a {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #0b5ed7;
+    text-decoration: none;
+}
+
+.job-list a:hover {
+    color: #0a3c91;
+    text-decoration: underline;
+}
+
+.job-list span {
+    display: block;
+    margin-top: 6px;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.new-job {
+    background-color: #e6f9ee !important;
+    border-left: 6px solid #2e7d32;
+    box-shadow: 0 3px 12px rgba(46,125,50,0.15);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 40px;
+}
