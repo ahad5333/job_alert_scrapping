@@ -1,4 +1,3 @@
-````markdown
 # Job Alert Dashboard 🚀
 
 **Job Alert Dashboard** is a Python-based web scraping project that automatically fetches the latest job postings from popular UAE job portals like GulfTalent and NaukriGulf. It filters jobs based on specific keywords and displays them in a modern, responsive HTML dashboard that updates every minute.
@@ -32,7 +31,6 @@
    ```bash
    git clone https://github.com/yourusername/job-alert-dashboard.git
    cd job-alert-dashboard
-````
 
 2. **Install dependencies:**
 
@@ -85,26 +83,9 @@ job-alert-dashboard/
 * **Check Interval:** Change `CHECK_INTERVAL` to control how often the script checks for new jobs.
 * **Sources:** Add or remove job portals by updating the `job_sources` array.
 
----
-
-## Screenshots 📸
-
-![Dashboard Preview](screenshot.png)
-
----
 
 ## License 📝
 
 This project is open-source and free to use. Feel free to modify and adapt it to your needs.
 
----
 
-## Contact 📬
-
-**Mohammed Ahadullah**
-Email: [ahad53344@gmail.com](mailto:ahad53344@gmail.com)
-LinkedIn: [linkedin.com/in/abdul-ahad-962951200](https://linkedin.com/in/abdul-ahad-962951200)
-GitHub: [github.com/ahad5333](https://github.com/ahad5333)
-Portfolio: [mohammed-ahadullah-portfolio.vercel.app](https://mohammed-ahadullah-portfolio.vercel.app/)
-
-```
